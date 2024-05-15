@@ -9,5 +9,5 @@ def index(request):
 def cars(request):
     return render(request,'cars.html.jinja')
 
-def car(request,car_id):
+def car(request, car_id):
     return render(request,'car.html.jinja')
